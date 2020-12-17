@@ -1,0 +1,35 @@
+ 498  git clone https://github.com/E2011Yahya/deneme111.git
+  499  git branch
+  500  ls -al
+  501  cd deneme111
+  502  git branch
+  503  echo '
+hello world' > hello.py
+  504  git add .
+  505  git commit -m "hello.py added"
+  506  git push 
+  507  git branch dev
+  508  git branch
+  509  git checkout dev
+  510  echo '
+print(hello world)
+print(this is V1.0)' > hellov1.py
+  511  git push
+  512  git push -u origin dev
+  513  git push
+  514  ls
+  515  git add  hellov1.py
+  516  git commit -m "hellov1.py added"
+  517  git push
+  518  rm hello.py
+  519  git add .
+  520  git commit -m "hello.py deleted"
+  521  git push
+  522  git log
+  523  git branch main
+  524  git checkout main
+  525  ls
+  526  git merge dev
+  527  ls
+  528  git push
+  529  history
